@@ -5,7 +5,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
       name: Checkout code
-    - uses: nunit/docfx-action@v1.0.0
+    - uses: nikeee/docfx-action@v1.0.0
       name: Build Documentation
       with:
         args: docfx.json
